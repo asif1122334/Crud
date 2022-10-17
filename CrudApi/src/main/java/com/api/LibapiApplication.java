@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class LibapiApplication implements CommandLineRunner {
     public static void main(String[] args) {
         SpringApplication.run(LibapiApplication.class, args);
+        System.out.println("node 1 git");
     }
 
     @Override
